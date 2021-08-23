@@ -4,6 +4,7 @@ Azure Functions, Azure Functions Apps, REST, API's, etc
 Hello, and good day all
 
 Service deployed on Azure at https://azurefunctionweatherapp.azurewebsites.net
+
 Function URL at https://azurefunctionweatherapp.azurewebsites.net/api/AzureFunctionWeatherApp?code=LIhtu65TO9wTB/FCi1u2sTHYRK5aKPnk1Qc5XK52XFRwYTaqM4PNaA==
 
 Use Postman, or whatever you prefer for API calls, and use Query part ?cityname=, and whatever city.
