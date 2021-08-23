@@ -4,6 +4,7 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using System.Net.Http;
+using Microsoft.Extensions.Logging;
 
 namespace FunctionAppHTTPClient
 {
@@ -14,8 +15,10 @@ namespace FunctionAppHTTPClient
 
         [FunctionName("AzureFunctionWeatherApp")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req)
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req, ILogger log)
             {
+
+            log.LogInformation("Don't need logging in this app, but left it anyway, as good practice.");
 
             //plug in your own key, to use locally
             string apiKey = "hidden for GitHub";
