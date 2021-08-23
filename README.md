@@ -15,6 +15,8 @@ Quick app, but these are completely serveless. Interesting though - you are stil
 
 PS. Once I publish it - use Postman, or APITest, or whatever else you use.
 
+PSS. Plug in your own API key from OpenWeatherMap, under apiKey, in the main class, if you want to use it locally.
+
 Some query results:
 
 ![alt text](https://github.com/VBukowsky81/AzureFunctions-WeatherApp/blob/master/Other/London.jpg)
