@@ -10,13 +10,14 @@ namespace FunctionAppHTTPClient
     public static class AzureFunctionWeatherApp
     {
 
-        private static readonly HttpClient WeatherDataHttpClient = new HttpClient();
+        private static readonly HttpClient HttpClientWeatherData = new HttpClient();
 
         [FunctionName("AzureFunctionWeatherApp")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req)
             {
 
+            //plug in your own key, to use locally
             string apiKey = "hidden for GitHub";
 
             //so use "?cityname=" in the query string
@@ -29,9 +30,10 @@ namespace FunctionAppHTTPClient
             return new NotFoundResult();
             }
 
+        //grabbing the data off OpenWeather
         private static async Task<HttpResponseMessage> GetCurrentWeatherData(string cityName, string apiKey)
         {
-            return await WeatherDataHttpClient.GetAsync($"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={apiKey}");
+            return await HttpClientWeatherData.GetAsync($"https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={apiKey}");
         }
     }
 }
