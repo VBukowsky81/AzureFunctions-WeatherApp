@@ -15,7 +15,7 @@ Quick app, but these are completely serverless. Interesting though - you are sti
 
 PS Plug in your own API key from OpenWeatherMap, under apiKey, in the main class, if you want to use it locally.
 
-Some service query results:
+Some service returns:
 
 ![alt text](https://github.com/VBukowsky81/AzureFunctions-WeatherApp/blob/master/Other/London.jpg)
 ![alt text](https://github.com/VBukowsky81/AzureFunctions-WeatherApp/blob/master/Other/Berlin.jpg)
