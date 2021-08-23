@@ -11,7 +11,7 @@ Use Postman, or whatever you prefer for API calls. Use above Function URL, and u
 
 ![alt text](https://github.com/VBukowsky81/AzureFunctions-WeatherApp/blob/master/Other/PostmanExample.jpg)
 
-Example full query: https://azurefunctionweatherapp.azurewebsites.net/api/AzureFunctionWeatherApp?code=LIhtu65TO9wTB/FCi1u2sTHYRK5aKPnk1Qc5XK52XFRwYTaqM4PNaA==&cityname=paris
+Example full query for Paris: https://azurefunctionweatherapp.azurewebsites.net/api/AzureFunctionWeatherApp?code=LIhtu65TO9wTB/FCi1u2sTHYRK5aKPnk1Qc5XK52XFRwYTaqM4PNaA==&cityname=paris
 
 This here is a quick Azure Functions application, that does service requests for local weather. You provide name of the city in the query, and you get the weather breakdown. The API this uses is OpenWeatherMap's API, one the most popular open source weather providers.
 
