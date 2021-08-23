@@ -13,9 +13,7 @@ So this basically does quick HttpClient GET request on OpenWeatherMap API, their
 
 Quick app, but these are completely serverless. Interesting though - you are still using storage space, to actually locate your function code. But otherwise - completely serverless.
 
-PS. Once I publish it - use Postman or whatever else you use.
-
-PSS. Plug in your own API key from OpenWeatherMap, under apiKey, in the main class, if you want to use it locally.
+PS Plug in your own API key from OpenWeatherMap, under apiKey, in the main class, if you want to use it locally.
 
 Some query results:
 
