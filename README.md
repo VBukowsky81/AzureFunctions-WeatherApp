@@ -7,7 +7,7 @@ Service deployed on Azure at https://azurefunctionweatherapp.azurewebsites.net
 
 Function URL at https://azurefunctionweatherapp.azurewebsites.net/api/AzureFunctionWeatherApp?code=LIhtu65TO9wTB/FCi1u2sTHYRK5aKPnk1Qc5XK52XFRwYTaqM4PNaA==
 
-Use Postman, or whatever you prefer for API calls, and use Query part ?cityname=, and whatever city.
+Use Postman, or whatever you prefer for API calls, and use Query part "cityname", and whatever city, like London or Paris.
 
 This here is a quick Azure Functions application, that does service requests for local weather. You provide name of the city in the query, and you get the weather breakdown. The API this uses is OpenWeatherMap's API, one the most popular open source weather providers.
 
