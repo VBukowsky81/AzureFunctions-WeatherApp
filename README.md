@@ -3,7 +3,7 @@ Azure Functions, Azure Functions Apps, REST, API's, etc
 
 Hello, and good day all
 
-This here is a quick Azure Functions application, that does service requests for local weather. You provide name of the city in the query, and you get the weather breakdown. The API this uses is OpenWeatherMap API's, one the most popular open source weather providers.
+This here is a quick Azure Functions application, that does service requests for local weather. You provide name of the city in the query, and you get the weather breakdown. The API this uses is OpenWeatherMap's API, one the most popular open source weather providers.
 
 I absolutely love Azure Functions, and what they are capable of doing. This is microservices, at our fingertips. We can do so much with this, as developers. Moreover, it is basically free, a free gift from Microsoft - I believe up to 1 million operations per month are free. And after that, it is still super cheap.
 
