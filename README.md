@@ -27,7 +27,7 @@ Some service returns:
 ![alt text](https://github.com/VBukowsky81/AzureFunctions-WeatherApp/blob/master/Other/Berlin.jpg)
 ![alt text](https://github.com/VBukowsky81/AzureFunctions-WeatherApp/blob/master/Other/Paris.jpg)
 
-App hosted on Azure, and here are successful calls to the its API:
+App hosted on Azure, and here are successful calls to its API:
 ![alt text](https://github.com/VBukowsky81/AzureFunctions-WeatherApp/blob/master/Other/AzureSuccess.jpg)
 
 Good day, and thanks
