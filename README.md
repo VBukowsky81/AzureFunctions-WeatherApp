@@ -15,7 +15,7 @@ Example full query for Paris: https://azurefunctionweatherapp.azurewebsites.net/
 
 This here is a quick Azure Functions application, that does service requests for local weather. You provide name of the city in the query, and you get the weather breakdown. The API this uses is OpenWeatherMap's API, one the most popular open source weather providers.
 
-I absolutely love Azure Functions, and what they are capable of doing. This is microservices, at our fingertips. We can do so much with this, as developers. Moreover, it is basically free, a free gift from Microsoft - I believe up to 1 million operations per month are free. And after that, it is still super cheap.
+I enjoy working with Azure Functions, it's microservices, at our fingertips. We can do so much with this, as developers. Moreover, it is basically free - I believe up to 1 million operations per month are free. And after that, it is still quite cheap.
 
 Anyway, extremely useful Azure feature/service, that I will personally use quite a bit.
 
