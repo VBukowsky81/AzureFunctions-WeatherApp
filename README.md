@@ -19,7 +19,7 @@ I enjoy working with Azure Functions, it's microservices, at our fingertips. We 
 
 Anyway, very useful Azure feature/service, that I will personally use quite often.
 
-So this basically does quick HttpClient GET request on OpenWeatherMap API, using their standard API format. The city name plugs at the query time - I have posted few examples with London, Paris and Berlin below.
+So this basically does quick HttpClient GET request on OpenWeatherMap API, using their standard API format. The city name plugs in at the query time - I have posted few examples with London, Paris and Berlin below.
 
 Function Apps are completely serverless, by the way. Interesting though - you are still using storage space, to actually locate your function code. But otherwise - completely serverless.
 
