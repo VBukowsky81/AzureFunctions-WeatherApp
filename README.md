@@ -17,7 +17,7 @@ This here is a quick Azure Functions application, that does service requests for
 
 I enjoy working with Azure Functions, it's microservices, at our fingertips. We can do so much with this, as developers. Moreover, it is basically free - I believe up to 1 million operations per month are free. And after that, it is still quite cheap.
 
-Anyway, extremely useful Azure feature/service, that I will personally use quite a bit.
+Anyway, very useful Azure feature/service, that I will personally use quite often.
 
 So this basically does quick HttpClient GET request on OpenWeatherMap API, using their standard API format. The city name plugs at the query time - I have posted few examples with London, Paris and Berlin below.
 
